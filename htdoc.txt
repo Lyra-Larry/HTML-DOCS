@@ -1,0 +1,12 @@
+module variables and datatypes
+sub main()
+Dim a as short()
+Dim b as integer()
+Dim c as double()
+a=10
+b=20
+c=a+b
+console.writename ("a={0},b={1}, c={2},a,b,c)
+console.readline()
+end sub
+end module 
