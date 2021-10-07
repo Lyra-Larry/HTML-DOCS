@@ -4,30 +4,49 @@
 </head> 
 <body>
  <h1> Heading h1 </h1>
- <p>Here we go<p>
+ <p><h3>Hello world!</h3><p>
  <hr>
  <div Style="Border:2px Solid blue">block element</div><p></p>
  <div Style="Border:2px Solid red">block element</div><p></p>
  <div Style="background-color:yellow"> block element</div>
  <hr>
- <h2>HTML Form</h2>
- <form action="action-page.php">
-
-   <label for="fname">first name:</label><br>
-   <input type="text" id="fname" name="fname"value="Bhatt"><br>
-
-   <label for="lname">last name:</label><br>
-  <input type="text"id="lname" name="lname" value="Rahila"><br>
-  <br>
-
-  <input type="submit" value="submit">
-
-  </form>
- <p>
-if you click the "submit button",the form-data will be sent to a page called"/action-page.php".
-</p>
+ <h2> Basic Html Form</h2>
+<fieldset>
+<legend align="middle"><strong> student details form </strong> </legend> 
+<form>
+     Firstname: <input type="text" name="fname">
+<br>
+<br>
+    Lastname: <input type="password" name="pwd">
+<br>
+<br>
+     male<input type="radio" name="gender" value="male">                                         
+     female<input type="radio" name="gender" value="female">
+     
+<br><br>
+     enter password:<input type="password" name="pwd">
+     <br><br>
+     choose qualification:
+     10th<input type="checkbox" name="qualification" value="10th">
+     12th<input type="checkbox" name="qualification" value="12th">
+     diploma<input type="checkbox" name="qualification" value="diploma">
+     Btech<input type="checkbox" name="qualification" value="Btech">
+<br><br>
+    choose stream:<select name="stream">
+      <option value="electrical"> electrical </option>
+      <option value="civils"> civils </option> 
+      <option value="omca">  omca </option>
+      <option value="mech"> mech </option>
+      <option value="Cse"> Cse </option>
+      <option value="Bsc"> Bsc </option>
+      <option value="MBA"> MBA </option> 
+      </select>
+<br>
+<br>
+     <input type="submit" value="submit">
+<br>
 </form>
-<hr>
+</fieldset>
 
  <div Style="color:blue">
  <h3>This is first group</h3>
@@ -65,7 +84,7 @@ if you click the "submit button",the form-data will be sent to a page called"/ac
  <dl>
  </div>
  <hr>
- <pre> Hello world!</pre>
+  <pre> Hello world!</pre>
 <blockquote>This is blockquote!</blockquote>
 <hr>
 <span> This is a span content.</span>
@@ -73,13 +92,26 @@ if you click the "submit button",the form-data will be sent to a page called"/ac
 <p>this is a <b>Bold</b> tag example.</p>
 <p><i>This</i> <u> is </u><strong> a </strong> <code>sample</code>
 <em>paragraph.</em></p>
-<div class="Header">
+<div class="container">
+<div class="header">
+<h1>Heading h1</h1>
+</div>
+<div class="page content">
 <p>Hello world!</p> 
 </div>
 <div class="Footer">
 <p>This is a Footer.</p>
 </div>
-       
+</div>
+<div class="container">
+<p>This <span><b>is sample</b> </span> paragraph(block element).</p>
+</div>
+<p><i>This is an italic text example of inline elements </i></p>
+<form>
+<p> This is textarea example of an inline element</p> 
+      Address <textarea name="address"> </textarea>
+<br><hr><br>
+</form>       
 </body>
 </html>
 
